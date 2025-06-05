@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        /* Estilos para el fondo de la página */
+        body {
+            text-align: center;
+            background-image: url('fondo.jpg'); /* Cambia esto por la ruta de tu imagen */
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Estilos para las imágenes y los nombres */
+        .left-container {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            text-align: center;
+        }
+
+        .right-container {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            text-align: center;
+        }
+
+        .left-container h5, .right-container h5 {
+            color: white;
+            margin: 5px 0 0; /* Ajusta el margen superior para que no se solape */
+        }
+
+        /* Estilos para el menú */
+        ul {
+            list-style-type: none;
+            margin: 70px;
+            padding: 0;
+            display: inline-block; /* Hace que el contenedor sea del tamaño de la lista */
+        }
+
+        li {
+            display: inline-block;
+            position: relative;
+        }
+
+        li:hover ul {
+            display: block;
+        }
+
+        ul ul {
+            display: none;
+            position: absolute;
+            top: 100%;
+            left: 0;
+        }
+
+        ul ul li {
+            width: 100%;
+        }
+
+        a {
+            display: block;
+            padding: 20px;
+            text-decoration: none;
+            color: #333;
+            background: #eee;
+        }
+
+        a:hover {
+            background: #ccc;
+        }
+
+        marquee {
+            font-size: 24px;
+            font-weight: bold;
+        }
+    </style>
+    <title>Pagina de HTML</title>
+</head>
+<body>
+    <!-- Contenedor izquierdo -->
+    <div class="left-container">
+        <img src="nico.jpg" width="30%" height="40%">
+        <h5>jossue</h5>
+    </div>
+
+    <!-- Contenedor derecho -->
+    <div class="right-container">
+        <img src="nico.gif" width="30%" height="40%">
+        <h5>cordova</h5>
+    </div>
+
+    <!-- Texto animado con colores -->
+    <center>
+        <marquee><font color="#98FF98">P</font></marquee>
+        <font color="#FDCB6E">R</font>
+        <font color="#A4D9D6">O</font>
+        <font color="#F8CEEC">Y</font>
+        <font color="#B0E0E6">E</font>
+        <font color="#E6E6FA">C</font>
+        <font color="#FFDAB9">T</font>
+        <font color="#FFFACD">O</font>
+        <font color="#F0F8FF">D</font>
+        <font color="#C5E1A5">E</font>
+        <font color="#E0B0FF">L</font>
+        <font color="#7FFFD4">A</font>
+        <font color="#FFDAB9">R</font>
+        <font color="#A3FFAC">E</font>
+        <font color="#FFCA99">A</font>
+        <font color="#EAFFC2">T</font>
+        <font color="#FF8097">E</font>
+        <font color="#FF85D5">C</font>
+        <font color="#E79EFF">N</font>
+        <font color="#B8E4FF">I</font>
+        <font color="#FF94A2">C</font>
+        <font color="#FFE180">A</font>
+        <font color="#F7CAC9">I</font>
+        <font color="#F8EDEB">N</font>
+        <font color="#FFE5B4">F</font>
+        <font color="#C5E0DC">O</font>
+        <font color="#A2C8CC">R</font>
+        <font color="#FFD1DC">M</font>
+        <font color="#FFB7C5">A</font>
+        <font color="#FFC0CB">T</font>
+        <font color="#F6A5C0">I</font>
+        <font color="#F9B7FF">C</font>
+        <font color="#FFCBA4">A</font>
+        <font color="#FDD7E4"> 2 </font>
+        <font color="#FFB7C3">0</font>
+        <font color="#FFE4E1">2</font>
+        <font color="#FFDAB9">4</font>
+        <font color="#F0D8D9">2</font>
+        <font color="#E6E6FA">0</font>
+        <font color="#D3D3D3">2</font>
+        <marquee><font color="#FFC0CB">5</font></marquee>
+    </center>
+
+    <hr size="8px" color="yellow">
+
+    <!-- Menú principal -->
+    <div>
+        <ul>
+            <li><a href="file:///C:/HTMLL/pagnew.html">Inicio</a></li>
+            <li>
+                <a href="#">Diseño y Desarrollo Web</a>
+                <ul>
+                    <li><a href="file:///H:/carpeta%20de%20todo/Dise%C3%B1o%20web%20proyecto%20cordova/menu%20desplegable.html.html">Trimestre 1</a></li>
+                    <li><a href="file:///C:/HTMLL/trimestre%202%20diseño%20web.html">Trimestre 2</a></li>
+                    <li><a href="file:///C:/HTMLL/trimestre%203%20diseño%20web.html">Trimestre 3</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">Programación y Base de Datos</a>
+                <ul>
+                    <li><a href="file:///C:/HTMLL/trimestre%201%20programación.html">Trimestre 1</a></li>
+                    <li><a href="file:///C:/HTMLL/trimestre%202%20programación.html">Trimestre 2</a></li>
+                    <li><a href="file:///C:/HTMLL/trimestre%203%20programación.html">Trimestre 3</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">Sistemas Operativos</a>
+                <ul>
+                    <li><a href="file:///C:/HTMLL/trimestre%201%20sistemas.html">Trimestre 1</a></li>
+                    <li><a href="file:///C:/HTMLL/trimestre%202%20sistemas.html">Trimestre 2</a></li>
+                    <li><a href="file:///C:/HTMLL/trimestre%203%20sistemas.html">Trimestre 3</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">Soporte Técnico</a>
+                <ul>
+                    <li><a href="file:///C:/HTMLL/trimestre%201%20soporte.html">Trimestre 1</a></li>
+                    <li><a href="file:///C:/HTMLL/trimestre%202%20soporte.html">Trimestre 2</a></li>
+                    <li><a href="file:///C:/HTMLL/trimestre%203%20soporte.html">Trimestre 3</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+
+    <hr size="8px" color="black">
+    <p align="justify">
+        <font face="Arial Black" color="black" size="4">
+            <img src="comput.gif" width="20%" height="60%" align="right">
+        </font>
+    </p>
+</body>
+</html>
